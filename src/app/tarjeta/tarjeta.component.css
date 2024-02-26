@@ -1,0 +1,32 @@
+
+img {
+    float: left;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+}
+p-card{
+    width:40rem;
+    margin:1%
+}
+.tarjeta-container {
+    display: flex;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    
+}
+
+.tarjeta-image {
+    width: 40%;
+    height: 100%;
+}
+
+.tarjeta-content {
+    width: 60%;
+    height: 100%;
+    padding: 0.5rem;
+    float:right;
+}

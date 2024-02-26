@@ -1,0 +1,15 @@
+<p-card class="tarjeta-container">
+    <ng-template pTemplate="picture" *ngIf="imgSrc">
+     
+            <img [src]="imgSrc" alt="Imagen de la tarjeta" class="tarjeta-image">
+    </ng-template>
+    <p-card-content class="tarjeta-content">
+        <sub>{{ character.status }} - {{character.species}}</sub>
+        <h3>{{ character.name}}</h3>
+        <sub>Ultima vez visto: </sub>
+        <p>{{character.location.name}}</p>
+        <sub>Primera aparición:</sub>
+        <p>{{character.episode[0]}}</p>
+    </p-card-content>
+ 
+</p-card>
