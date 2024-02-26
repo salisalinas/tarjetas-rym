@@ -23,7 +23,7 @@ describe('TarjetaComponent', () => {
     expect(component).toBeTruthy();
   });
   it('deberia manejar valores por defecto', () => {
-    expect(component.contenido).toBeUndefined();
+    expect(component.character).toBeUndefined();
     expect(component.imgSrc).toBeUndefined();
   });
 

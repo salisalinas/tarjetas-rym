@@ -12,7 +12,6 @@ import { CardModule } from 'primeng/card';
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
 })
 export class TarjetaComponent {
-  @Input() contenido?: string;
   @Input() imgSrc?: string;
   @Input() character: any;
 }
